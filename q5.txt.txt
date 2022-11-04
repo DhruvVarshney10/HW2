@@ -1,0 +1,3 @@
+1. NO
+2. YES
+3. The diffrence between increment_int_a and increment_int_b is that in increment_int_a the value is passed by value, hence when the value(a copy of the variable is sent) of the variable is updated inside the function it is not reflected in the main function. However, in the increment_int_b function the value is passes in by reference(the variable iteself is sent) which mean the value updated inside the function will reflect in the main function too.

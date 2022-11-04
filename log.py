@@ -6,9 +6,3 @@ def timestamp(func):
 		func()
 	return wrapper
 
-@timestamp
-def hi():
-	print('hi')
-def main():
-	hi()
-main()
