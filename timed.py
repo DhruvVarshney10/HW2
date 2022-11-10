@@ -1,6 +1,6 @@
 import time
 
-def decorator(func):
+def timeme(func):
 	def wrapper():
 		a = time.time()
 		func()
